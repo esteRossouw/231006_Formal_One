@@ -242,3 +242,26 @@ button {
     height: 200px;
     border-radius: 50%;
 }
+
+.plant-img2{
+    height: 200px;
+    width: 140px;
+    border-radius: 50%;
+}
+.plant-name {
+    font-family: 'Libre Baskerville', serif;
+    color:#18382B;
+    margin-top:  80px;
+  }
+
+
+.remove-item {
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    margin-top:  80px;
+}
+
+.names{
+    font-family: 'Libre Baskerville', serif;
+}

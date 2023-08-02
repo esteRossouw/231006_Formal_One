@@ -70,6 +70,7 @@ button {
 }
 
 
+
 /* Carousel */
 
 .carousel-item {
@@ -115,6 +116,37 @@ button {
     height: 440px;
     border: none;
 }
+.card2 {
+    border-radius: 150px 150px 12px 12px;
+    background: #F3F3F3;
+    text-align: center;
+    height: 440px;
+    border: none;
+}
+.card3 {
+    border-radius: 150px 150px 12px 12px;
+    background: #F3F3F3;
+    text-align: center;
+    height: 440px;
+    border: none;
+}
+.card4 {
+    border-radius: 150px 150px 12px 12px;
+    background: #F3F3F3;
+    text-align: center;
+    height: 440px;
+    border: none;
+    margin-top: 15px;
+}
+.card5 {
+    border-radius: 150px 150px 12px 12px;
+    background: #F3F3F3;
+    text-align: center;
+    height: 440px;
+    border: none;
+    margin-top: 15px;
+}
+
 
 .card-img-top {
     width:auto;
@@ -127,9 +159,53 @@ button {
     height:200px;
 }
 
+.card-img-last {
+    width:auto;
+    height:320px;
+    margin: auto;
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1); 
+}
+
+.card-img-last.small {
+    height:200px;
+}
+.card-img-middle {
+    width:auto;
+    height:320px;
+    margin: auto;
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1); 
+}
+
+.card-img-middle.small {
+    height:200px;
+}
+.card-img-right {
+    width:auto;
+    height:320px;
+    margin: auto;
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1); 
+}
+
+.card-img-right.small {
+    height:200px;
+}
+
+.card-img-left {
+    width:auto;
+    height:320px;
+    margin: auto;
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1); 
+}
+
+.card-img-left.small {
+    height:200px;
+}
+
+
 .card-text {
     color: #18382B;
 }
+
 
 /* ---------------------------------------------------------------- */
 /* Home Page */
@@ -146,4 +222,22 @@ button {
     margin-top: -20px;
     margin-left: 150px;
     
+}
+/* Accordion */
+.accordion-header button.accordion-button {
+    color: #e6f2e9; 
+    font-family: 'Libre Baskerville', serif;
+}
+.accordion-body {
+    font-family: 'Lato', sans-serif;
+    color: #18382B;
+}
+
+.myTable {
+    margin-top: 100px;
+    color: #18382B;
+}
+
+.plant-img{
+    height: 200px;
 }

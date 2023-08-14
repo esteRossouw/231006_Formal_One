@@ -84,4 +84,37 @@ $(document).ready(function(){
       });
     });
 
- 
+    var plants = [
+      {
+        name: "Fikus Tree",
+        price: 320,
+        description: "Graceful and lush, this charming indoor plant boasts glossy, emerald-green leaves that effortlessly brighten any space. Easy to care for and standing at an ideal height, our Ficus Tree is the perfect addition to elevate your interior décor.",
+        onSale: true
+      },
+      {
+        name: "White Sprite Succulent",
+        price: 200,
+        description: "Delicate and captivating, this rare succulent showcases a mesmerizing silver-white hue that gracefully adorns its petite, fleshy leaves.",
+        onSale: true
+      },
+      {
+        name: "Snake Plant",
+        price: 400,
+        description: "Boasting tall, sleek, and sword-like leaves, this botanical marvel adds a touch of modern flair to any setting.",
+        onSale: false
+      },
+      {
+        name: "Parlour Palm",
+        price: 350,
+        description: "With its lush, feather-like fronds and compact size, this indoor beauty makes a striking addition to any interior space.",
+        onSale: true
+      },
+      {
+        name: "Japanese Maple",
+        price: 1200,
+        description: "Known for its stunning foliage that transforms with the seasons, this ornamental tree captivates with its delicate, lacy leaves in vibrant shades of red, orange, or gold.",
+        onSale: false
+      },
+    ];
+  
+        
